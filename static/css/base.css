@@ -3,10 +3,9 @@ html {
 }
 
 body {
-    background: url('/media/homepage.jpg') no-repeat center center fixed;
+    background-color: white;
     background-size: cover;
     height: calc(100vh - 164px);
-    color: #555;
     font-family: 'Lato';
 }
 
