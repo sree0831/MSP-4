@@ -91,7 +91,7 @@ a.category-badge > span.badge:hover {
 .btt-link,
 .update-link,
 .remove-item {
-    cursor: auto;
+    cursor: pointer;
 }
 
 /*=========================================================
@@ -111,7 +111,7 @@ a.category-badge > span.badge:hover {
   bottom: 0;
   left: 0px;
   width: 60%;
-  background:  #D10024;
+  background:black;
   opacity: 0.9;
   -webkit-transform: skewX(-45deg);
   -ms-transform: skewX(-45deg);
