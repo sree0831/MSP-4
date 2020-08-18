@@ -167,6 +167,16 @@ a.category-badge > span.badge:hover {
   text-transform: uppercase;
 }
 
+.fa-shopping-cart {
+  position: absolute;
+  right: 2rem;
+  top: 1.2rem;
+  color: black;
+}
+.fa-shopping-cart:hover {
+  color: white;
+}
+
 /*scrol to top*/
 .scrollToTop {
   bottom: 60px;
