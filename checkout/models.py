@@ -5,6 +5,7 @@ from products.models import Product
 
 class Order(models.Model):
     full_name = models.CharField(max_length=50, blank=False)
+    email = models.EmailField(max_length=254, null=False, blank=False)
     phone_number = models.CharField(max_length=20, blank=False)
     country = models.CharField(max_length=40, blank=False)
     postcode = models.CharField(max_length=20, blank=True)
