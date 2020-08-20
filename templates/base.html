@@ -84,11 +84,11 @@
                         <a class="{% if grand_total %}text-info font-weight-bold{% else %}text-black{% endif %} nav-link" href="{% url 'view_bag' %}">
                             <div class="text-center">
                                 <div>
-                                   <i class="fas fa-shopping-cart text-black "></i> 
+                                  
                             {% if product_count > 0 %}
                             <label class="badge badge-warning">{{ product_count }}</label>
                             {% endif %}
-                                    
+                                <i class="fas fa-shopping-cart text-black "></i>   
                                 </div>
                                 <p class="my-0 text-black">
                                     {% if grand_total %}
@@ -117,9 +117,7 @@
         </div>
     </header>
 
-    {% if messages %}
-        <div class="message-container"></div>
-    {% endif %}
+    
 
     {% block page_header %}
     {% endblock %}
@@ -128,6 +126,7 @@
     {% endblock %}
 
     {% block postloadjs %}
+    
     {% endblock %}
 
     {% include 'includes/footer.html' %}
