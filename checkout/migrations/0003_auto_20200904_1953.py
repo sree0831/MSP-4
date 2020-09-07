@@ -2,23 +2,20 @@
 
 from django.db import migrations, models
 import django.db.models.deletion
+import django_countries.fields
+
 
 
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('profiles', '0001_initial'),
         ('checkout', '0002_auto_20200901_0841'),
     ]
 
     operations = [
-        migrations.RemoveField(
-            model_name='orderlineitem',
-            name='product_size',
-        ),
-        migrations.AddField(
+        migrations.AlterField(
             model_name='order',
-            name='user_profile',
-            field=models.ForeignKey(blank=True, null=True, on_delete=django.db.models.deletion.SET_NULL, related_name='orders', to='profiles.userprofile'),
+            name='country',
+            field=django_countries.fields.CountryField(max_length=2),
         ),
     ]
