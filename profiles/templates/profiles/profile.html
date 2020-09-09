@@ -1,9 +1,7 @@
 {% extends "base.html" %}
 {% load static %}
 
-{% block extra_css %}
-    <link rel="stylesheet" href="{% static 'profiles/css/profile.css' %}">
-{% endblock %}
+
 
 {% block page_header %}
     <div class="container header-container">
@@ -14,6 +12,7 @@
 {% endblock %}
 
 {% block content %}
+
    <div class="overlay"></div>
     <div class="container">
         <div class="row">
@@ -23,8 +22,24 @@
                 <hr>
             </div>
         </div>
-        <div class="row">
-            <div class="col-12 col-lg-6">
+
+<div class="container">
+    <div class="row justify-content-md-center">
+        <div class="col-xs-12 col-md-6 col-lg-4 col-centered mb-5 mt-5">
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="/media/{{ '1.png' }}" alt="Card image cap">
+                <div class="card-body">
+                    <h2> {{ user }}'s Profile </h2>
+                    <p> {{ user.email }} </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+  <div class="row">
+            <div class=" col ">
                 <p class="text-muted">Default Delivery Information</p>
                 <form class="mt-3" action="{% url 'profile' %}" method="POST" id="profile-update-form">
                     {% csrf_token %}
@@ -32,9 +47,6 @@
                     <button class="btn btn-black rounded-0 text-uppercase float-right">Update Information</button>
                 </form>
             </div>
-            <div class="col-12 col-lg-6">
-                <p class="text-muted">Order History</p>
-                {{ orders }}
-            </div>
-        </div>
+       
+            
 {% endblock %}
