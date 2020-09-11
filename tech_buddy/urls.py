@@ -17,7 +17,8 @@ from django.contrib import admin
 from django.urls import path, include
 from django.conf import settings
 from django.conf.urls.static import static
-
+from django.conf.urls import url, include
+from news.views import get_posts
 
 
 
@@ -29,5 +30,7 @@ urlpatterns = [
     path('bag/', include('bag.urls')),
     path('checkout/', include('checkout.urls')),
     path('profile/', include('profiles.urls')),
+    url(r'^news/', get_posts, name='news'),
+  
 
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

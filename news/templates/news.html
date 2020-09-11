@@ -1,0 +1,75 @@
+{% extends "base.html" %}
+
+{% load static %}
+
+{% block extra_css %}
+    <link rel="stylesheet" href="{% static 'news/css/news.css' %}">
+{% endblock %}
+
+{% block page_header %}
+    <div class="container header-container">
+        <div class="row">
+            <div class="col"></div>
+        </div>
+    </div>
+{% endblock %}
+
+{% block content %}
+
+    <!-- Title and introduction to news page -->
+    <div class="row">
+        <div class="text-section newsinfo col-md-6 offset-md-3 col-lg-8 offset-lg-2">
+            <h2 class="title">The latest news from the Tech Buddy</h2>
+            <p> 
+                Get the latest Tech Buddy Technology News: breaking news and analysis on computing, the web, blogs, games, gadgets, social media, broadband and more.
+            </p>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="news-stories row">
+            <div class="col-xs-12">
+                <!-- Displays panel for each news post -->
+                {% for post in posts %}
+                    <div class="news-panel">
+                        <div class="news-body">
+                            <div class="row">
+                                <div class="col-sm-4 offset-sm-4 col-md-2 offset-md-5 text-center">
+                                    <!-- Author's profile image -->
+                                    <a class="story-img" href="#">
+                                        <img src="/media/2.jpg" class="img-circle">
+                                    </a>
+                                    <!-- Author information -->
+                                    <p class="authorinfo"><b>Author:</b> Tech Buddy</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-10 offset-sm-1">
+                                    <!-- Post's title -->
+                                    <h3 class="post-title">{{ post.title }}</h3>
+                                        <!-- Displays post image if there is one -->
+                                        {% if post.image %}
+                                            <img class="post-img rounded mx-auto d-block" src="/media/{{ post.image }}">
+                                        {% endif %}        
+                                        <div class="row post-content">
+                                            <div class="col-12">
+                                                <!-- Post's content -->
+                                                <p>{{ post.content|linebreaks }}</p>
+                                                <!-- Post publication date -->
+                                                <p><i class="fa fa-calendar-check-o" aria-hidden="true"></i> <b>Published on:</b> {{ post.published_date }}</p>
+                                                <!-- Number of views of post -->
+                                                <p><i class="fa fa-eye" aria-hidden="true"></i> <b>Views:</b> {{post.views}}</p>
+                                                <!-- Post's tags -->
+                                                <p><i class="fa fa-tags" aria-hidden="true"></i> <b>Tags:</b> {{ post.tag }}</p>
+                                                </div>
+                                          </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>    
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+
+{% endblock %}
