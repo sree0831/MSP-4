@@ -22,6 +22,7 @@ from news.views import get_posts
 
 
 
+
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('accounts/', include('allauth.urls')),
@@ -31,6 +32,7 @@ urlpatterns = [
     path('checkout/', include('checkout.urls')),
     path('profile/', include('profiles.urls')),
     url(r'^news/', get_posts, name='news'),
+  
   
 
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
