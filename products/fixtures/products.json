@@ -18,13 +18,13 @@
     "model": "products.product",
     "fields": {
       "sku": "pp5001600425",
-      "name": "Liz Claiborne Audra Classic Fit Straight Leg Pants",
-      "description": "Straight-leg styling and on-the-job comfort make our Audra pants a flattering business decision. flat front zip fly with hook-and-bar closure 2 front and 2 back welt pockets 34 1/2\" inseam polyester/rayon/spandex washable imported",
-      "price": 58.99,
+      "name": "Divoom Ditoo Pixel Art Gaming Portable Bluetooth Speaker with App Controlled 16X16 LED Front Panel, Also a Smart Alarm Clock (White)",
+      "description": "Meet Divoom Ditoo - Our most popular retro Bluetooth speaker with a 3.55 inch led screen. The combination of lovely form and practicality, it is our most compact mini speaker that fits perfectly into small spaces",
+      "price": 94.90,
       "category": 4,
       "rating": 4.6,
-      "image_url": "https://images-na.ssl-images-amazon.com/images/I/71PGvPXpk5L._AC_SL1500_.jpg",
-      "image": "DP0113201617034987M.jpg"
+      "image_url": "https://images-na.ssl-images-amazon.com/images/I/71lDA9haS0L._AC_SL1500_.jpg",
+      "image": "deals1.jp"
     }
   },
   {
@@ -32,13 +32,18 @@
     "model": "products.product",
     "fields": {
       "sku": "pp5001730010",
-      "name": "Royal Velvet Matte Satin Square 3-pc. Coverlet Set",
-      "description": "Add a 5-star resort feel to your bedroom with the elegant Matte Satin Square coverlet set, featuring modern embroidered squares and flanged trim.  square embroidered pattern flanged-edge trim fabric is washable for easy care 3-piece set includes: coverlet 2 shams Polyester coverlet with cotton fill; polyester shams. Washable. Imported. Full/Queen: coverlet is 92x96\" King: coverlet is 110x96\"",
-      "price": 205.99,
+      "name": "VOOCO X-Star Premium Drone with 4K Camera, 1.2-Mile HD Live View & Hard Case (Orange)",
+      "description": "4K Ultra HD video camera with quick-release 3-axis gimbal stabilizer
+HD Live View up to 1.2 miles away and autonomous flight modes via the free Starlink app for iOS or Android (mobile device sold separately)
+Dual GPS/GLONASS outdoor navigation, SecureFlyTM magnetic interference protection, and the Starpoint Positioning SystemTM
+Intuitive remote controller with LCD display and one-touch action buttons
+Included accessories: Premium hard case, 64-GB MicroSD card, intelligent battery, 1-hour fast charger, spare propellers and small parts
+Backed by Autel Robotics customer support: U.S. based, seven days a week",
+      "price": 579.00,
       "category": 2,
-      "rating": 4.7,
-      "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP1230201417013175M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-      "image": "DP1230201417013175M.jpg"
+      "rating": 4.90,
+      "image_url": "https://images-na.ssl-images-amazon.com/images/I/71KbetVv5IL._AC_SL1500_.jpg",
+      "image": "drone.jpg"
     }
   },
   {
@@ -46,13 +51,17 @@
     "model": "products.product",
     "fields": {
       "sku": "pp5001890157",
-      "name": "Gibson Infinite Glaze 16-pc. Dinnerware Set",
-      "description": "An exhibition in contrast, this dinnerware sets simple, clean design is perfect for both everyday use and special occasions. durable stoneware construction microwave and oven safe service for 4 16-piece set includes: four 10\" dinner plates four 7\" dessert plates four 6\" bowls four 12-ounce mugs Stoneware. Dishwasher safe. Imported.",
-      "price": 169.99,
+      "name": "Apple Watch Series 5 (GPS, 40MM) - Gold Aluminum Case with Pink Sand Sport Band",
+      "description": "GPS Only
+Always-On Retina display
+30% larger screen
+Swimproof
+Electrical and optical heart sensors ",
+      "price": 299.99,
       "category": 7,
       "rating": 3,
-      "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP0716201503423610M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-      "image": "DP0716201503423610M.jpg"
+      "image_url": "https://images-na.ssl-images-amazon.com/images/I/71luYyAPVTL._AC_SL1500_.jpg",
+      "image": "watch1.jpg"
     }
   },
   {
@@ -60,13 +69,17 @@
     "model": "products.product",
     "fields": {
       "sku": "pp5002111605",
-      "name": "Simply Calphalon Enameled Cast Iron Panini Pan",
-      "description": "Durable enameled cast iron construction allows the panini pan to heat evenly, so you can whip up a meal with ease and complete confidence.  cooks with little to no oils or fats so every recipe is healthier nonstick interior for quick and easy clean-ups stainless steel knob on cover enameled cast iron heats evenly and consistently stove, broiler and oven safe Cast iron/stainless steel. Dishwasher safe. Imported. ",
-      "price": 232.99,
+      "name": "Bellabeat Leaf Nature Smart Jewelry Health Tracker",
+      "description": "Bellabeat Leaf products include a coin cell battery that lasts for approximately 6 months. No need to charge so you can track 24 hours a day
+Package includes: Leaf Rose Gold Edition, Double Wrap Bracelet | Terra Rose Gold S/M, Necklace Classic/Rose Gold and Battery Replacement Tool. Leaf works with both Android & iOS
+Splash proof natural wood & hypoallergenic stainless steel clip / 1 year warranty
+Tracks your steps, distance moved, calories burned, sleep patterns, reproductive health, menstrual cycle and stress
+Wakes you gently in the morning and reminds you to stay active with inactivity alarm. Easily connect with Apple Health or Google Fit and measurements are 1.9 inch H x 1.2 inch W x 0.5 inch D ",
+      "price": 104.99,
       "category": 7,
       "rating": 5,
-      "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP1115201210371197C.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-      "image": "DP1115201210371197C.jpg"
+      "image_url": " https://images-na.ssl-images-amazon.com/images/I/41aKDFFOIYL._AC_.jpg",
+      "image": "watch2.jpg"
     }
   },
   {
@@ -74,13 +87,13 @@
     "model": "products.product",
     "fields": {
       "sku": "pp5002260206",
-      "name": "The Foundry Supply Co. Solid Pocket TeeBig & Tall",
-      "description": "Get a better basic tee in a size that truly fits with this pocket t-shirt from The Foundry Supply Co.  short-sleeve, crew-neck tee left chest pocket 100% cotton washable imported",
-      "price": 30.99,
+      "name": "T COSORI Air Fryer(100 Recipes)",
+      "description": ",5.8Qt Electric Hot Air Fryers XL Oven Oilless Cooker,11 Cooking Preset,LED Digital Touchscreen,Nonstick Basket,ETL/UL Certified,1700W",
+      "price": 119.99,
       "category": 9,
       "rating": 4.7,
-      "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP0624201520422666C.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-      "image": "DP0624201520422666C.jpg"
+      "image_url": " https://images-na.ssl-images-amazon.com/images/I/71njbSgK2OL._AC_SL1500_.jpg",
+      "image": "ki1.jpg  "
     }
   },
   {
@@ -88,13 +101,16 @@
     "model": "products.product",
     "fields": {
       "sku": "pp5002440521",
-      "name": "Liz Claiborne Classic Sophie Secretly Slender Trouser Leg Pants - Plus",
-      "description": "Walk a little taller in our slimming straight-leg pants. flat front slim fit straight leg front fly with nylon zipper, hook and bar closure 32\" inseam polyester/rayon/spandex washable imported ",
-      "price": 59,
+      "name": "Beats Studio3 Wireless Headphones - Decade Collection, Defiant Black-Red",
+      "description": "Pair and play with your Bluetooth device with 30ft range.
+12-Hour rechargeable battery with Fuel gauge. Soft over ear cushions for extended comfort and added noise isolation
+Soft ear cups have an ergonomic bellow that creates a flexible custom fit, so you can keep your music all to yourself.
+WHAT'S IN THE BOX: Beats Studio 3 Wireless Headphones | (NOT Included: microUSB Cable, Carrying Case and Remote Talk Cable) ",
+      "price": 194.99,
       "category": 4,
       "rating": 4.4,
-      "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP0226201317034754M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-      "image": "DP0226201317034754M.jpg"
+      "image_url": " https://images-na.ssl-images-amazon.com/images/I/71m27tBEhbL._AC_SL1500_.jpg",
+      "image": " deals2.jpg "
     }
   },
   {
@@ -102,13 +118,16 @@
     "model": "products.product",
     "fields": {
       "sku": "pp5002601115",
-      "name": "Rachael Ray Ceramic Olive Oil Dispenser",
-      "description": "This olive oil dispenser is designed for storing extra virgin olive oil, so it's close at hand for drizzling on food.  24-ounce capacity cruet opaque bottle and non-porous glazed interior keep oil in the dark to avoid oxidation and preserve taste playful, contemporary design Stoneware. Dishwasher-safe. Imported.",
-      "price": 36.99,
+      "name": "Netgear Arlo Smart Security - 2 HD Camera Security System,Wire-Free, Indoor/Outdoor with Night Vision (VMS3230) (VMS3230",
+      "description": "Works with Amazon Alexa/echo Show/(Fire TV coming Soon!) - view your live video with a simple voice command.
+See in stunning clarity and sharper details with HD cameras and watch live streamed or recorded videos from your computer, smartphone or tablet using Arlo’s free app
+Patented 100% Wire-Free design and magnetic mounts let you discreetly place cameras where you want and monitor your home from every possible angle
+Night vision cameras with HD clarity even in the dark",
+      "price": 119.99,
       "category": 7,
       "rating": 4.5,
-      "image_url": "http://s7d2.scene7.com/is/image/JCPenney/DP0926201317071162M.tif?wid=65&hei=65&fmt=jpg&op_usm=.4,.8,0,0&resmode=sharp2",
-      "image": "DP0926201317071162M.jpg"
+      "image_url": "https://images-na.ssl-images-amazon.com/images/I/71G%2BcvtYp4L._AC_SL1500_.jpg",
+      "image": "cle1.jpg "
     }
   },
   {
@@ -116,13 +135,16 @@
     "model": "products.product",
     "fields": {
       "sku": "pp5002690715",
-      "name": "Protech Performance Sheet Set",
-      "description": "Protech sheets are like activewear for your bed! The same cutting edge technology that is used in today's sportswear is also used in these Protech Plus sheets to give you a better night's sleep. Breathable ultra-fine microfiber wicks away moisture, keeping your body cool throughout the night while a 4-way stretch component allows you comfort in movement. This stretching ability also helps while making the bed, fitting most premium size mattresses; you won't have to struggle to get the sheets to fit all the way around.  4-way stretch component allows you comfort in movement available in a variety of solid colors microfiber knit fits mattresses up to 19\" deep Set includes: fitted sheet flat sheet 2 pillowcases Polyester/spandex. Washable. Imported. Full: 54x75 Queen: 60x80 King: 78x80 Cal. King: 72x84",
-      "price": 169.99,
+      "name": "Charging Station Dock for 4 Nintendo Switch Joy-con Controllers - 2.6 Foot Cable, Black", 
+      "description": "Charging station for Nintendo Switch Joy-Con controllers; charges up to 4 Joy-Cons at a time (Joy-Con controllers not included)
+Charges all 4 controllers in about 3.5 to 4 hours; 4 individual LED charging indicators (red for charging; green for fully charged)
+Over-current and over-voltage protection; anti-slip base with 4 rubber feet for stability
+2.6-foot fixed USB-A cable; plug USB cord into a power supply or Nintendo Switch dock to activate charging",
+      "price": 21.99,
       "category": 2,
       "rating": 4.7,
-      "image_url": "http://s7d2.scene7.com/is/image/JCPenney/DP1020201517025390M.tif?wid=65&hei=65&fmt=jpg&op_usm=.4,.8,0,0&resmode=sharp2",
-      "image": "DP1020201517025390M.jpg"
+      "image_url": "https://images-na.ssl-images-amazon.com/images/I/71SQSraI7rL._SL1500_.jpg",
+      "image": "game1.jpg"
     }
   },
   {
@@ -130,13 +152,17 @@
     "model": "products.product",
     "fields": {
       "sku": "pp5002701115",
-      "name": "Reflections Set of 4 Microfiber Napkins",
-      "description": "Complete the look of your table setting with these easy-care microfiber napkins.  great for everyday use or entertaining liquid-resistant design helps protect against spills set of 4 Polyester.Each measures 19x19\". Washable. Imported.",
-      "price": 33.99,
+      "name": "Retro Mini TV Console",
+      "description": "If our Retro mini consoles weren't nostalgic enough - We've now thrown in a Mini retro TV too!
+Over 300 built-in super 8-bit games
+Can be connected directly to your TV to play with additional AV cable (included)
+Requires 3 x AAA batteries for the mini TV & 2 x AG13 batteries for each joypad (not included)
+Super 8-bit LCD screen with 2 separate wireless joypads",
+      "price": 34.99,
       "category": 7,
       "rating": 4.4,
-      "image_url": "http://s7d2.scene7.com/is/image/JCPenney/DP0418201317011949M.tif?wid=65&hei=65&fmt=jpg&op_usm=.4,.8,0,0&resmode=sharp2",
-      "image": "DP0418201317011949M.jpg"
+      "image_url": "https://cdn.shopify.com/s/files/1/0012/3646/7782/products/3318_OR-MINTVCNS_Lifestyle_5@2x.jpg?v=1571047385",
+      "image": "cle2.jpg"
     }
   },
   {
@@ -144,13 +170,18 @@
     "model": "products.product",
     "fields": {
       "sku": "pp5002761055",
-      "name": "Chef Designs Black-Trimmed Cook ShirtBig & Tall",
-      "description": "Stylish black-trim cook shirt from Chef Designs is just what you need for a confident, professional presence in the kitchen.  contrasting black stand collar black front buttons left chest pocket short hemmed sleeves squared bottom hem polyester/cotton washable imported of domestic fabric more sizes: regular, big",
-      "price": 29.99,
+      "name": "Bose Wave Music System IV - Platinum Silver",
+      "description": "Lifelike, room-filling sound with breakthrough waveguide technology
+Fresh, updated design. Remote control (battery pre-installed). 2.4 m (8 foot) AC power cable
+CD/MP3 CD player; advanced AM/FM tuner; text display of song information
+Dual alarms, touch-top on/off/snooze, slim remote with 12 presets
+To wirelessly stream music from your smartphone or tablet, simply add the optional Bluetooth adapter
+Connect to devices that use a standard 3.5 mm audio output",
+      "price": 478.99,
       "category": 9,
       "rating": 3,
-      "image_url": "http://s7d2.scene7.com/is/image/JCPenney/0900631B81B0C2D9M.tif?wid=65&hei=65&fmt=jpg&op_usm=.4,.8,0,0&resmode=sharp2",
-      "image": "0900631B81B0C2D9M.jpg"
+      "image_url": "https://images-na.ssl-images-amazon.com/images/I/71yu%2BhorjRL._AC_SL1500_.jpg",
+      "image": "app1_ZAtLCMe.jpg"
     }
   },
   {
@@ -158,13 +189,16 @@
     "model": "products.product",
     "fields": {
       "sku": "pp5002820069",
-      "name": "Nike 3-pk. Performance Crew Socks - Boys",
-      "description": "Keep him moving in comfort all day with quality Nike crew socks.  arch support reinforced toe and heel cotton/polyester/spandex washable imported",
-      "price": 19.99,
+      "name": "PlayStation 4 Slim 1TB Console",
+      "description": "Incredible games; Endless entertainment
+All new lighter slimmer PS4
+1TB hard drive
+All the greatest, games, TV, music and more",
+      "price": 339.99,
       "category": 1,
       "rating": 4.6,
-      "image_url": "http://s7d2.scene7.com/is/image/JCPenney/DP0510201317010521M.tif?wid=65&hei=65&fmt=jpg&op_usm=.4,.8,0,0&resmode=sharp2",
-      "image": "DP0510201317010521M.jpg"
+      "image_url": "https://images-na.ssl-images-amazon.com/images/I/71PGvPXpk5L._AC_SL1500_.jpg",
+      "image": "ps4.jpg"
     }
   },
   {
@@ -172,13 +206,17 @@
     "model": "products.product",
     "fields": {
       "sku": "pp5002820147",
-      "name": "Champion Jersey Tee",
-      "description": "Compete, exercise or simply relax in comfort with a classic tee from Champion, the brand that's been making quality athletic apparel since 1919.  regular fit crewneck taped neck left chest logo embroidery cotton except oxford and granite heather are cotton/polyester washable imported",
-      "price": 20,
+      "name": "Latest Microsoft Surface Pro 4 (2736 x 1824) Tablet 6th Generation (Intel Core i5-6300U, 8GB Ram, 256GB SSD, Bluetooth, Dual Camera) Windows 10 Professional..",
+      "description": "Intel Core i5-6300U 2. 4 GHz processor with Intel HD Graphics 520, 256GB SSD Drive
+8GB RAM, Wireless: 802. 11a/b/g/n/ac Wi-Fi, Bluetooth 4. 0
+Ports: Full-size USB 3. 0; microSD card reader; Headphone jack; Mini DisplayPort; Cover port; Charging port, Camera: 5MP front-facing and 8MP rear-facing cameras with 1080p HD video recording
+Display: 12. 3-inch PixelSense touchscreen display; 2736 x 1824 resolution, Stereo speakers with Dolby Audio-enhanced sound
+Operating System: Windows 10 Professional, This Certified Refurbished product is tested and certified to look and work like new. The refurbishing process includes functionality testing, basic cleaning, inspection, and repackaging",
+      "price": 529.99,
       "category": 9,
       "rating": 3.2,
-      "image_url": "http://s7d2.scene7.com/is/image/JCPenney/DP0430201405053680M.tif?wid=65&hei=65&fmt=jpg&op_usm=.4,.8,0,0&resmode=sharp2",
-      "image": "DP0430201405053680M.jpg"
+      "image_url": "https://images-na.ssl-images-amazon.com/images/I/61%2B190WRzZL._AC_SL1200_.jpg",
+      "image": "com.jpg"
     }
   },
   {
@@ -186,13 +224,16 @@
     "model": "products.product",
     "fields": {
       "sku": "pp5002910572",
-      "name": "Stafford 4-pk. Blended Cotton A-Shirts",
-      "description": "Stafford Big & Tall ribbed athletic t-shirts deliver the tagless comfort and breathable performance he needs.  super soft, quick-drying, durable fabric preshrunk for lasting fit reinforced durable stitching tag free cotton/polyester washable imported ",
-      "price": 26.99,
+      "name": "Apple iPad Pro 2018 (11-inch, Wi-Fi + Cellular 512GB) - Space Gray",
+      "description": "11-Inch edge-to-edge Liquid Retina display with Promotion, true Tone, and wide Color
+A12X Bionic chip with Neural Engine, Face ID for secure authentication and Apple Pay
+12MP back camera, 7MP True Depth front camera, Four speaker Audio with wider Stereo sound
+v802. 11AC Wi-Fi and gigabit-class LTE cellular data, Up to 10 hours of battery life",
+      "price": 1199.99,
       "category": 5,
       "rating": 4.7,
-      "image_url": "http://s7d2.scene7.com/is/image/JCPenney/0900631B81C9387BM.tif?wid=65&hei=65&fmt=jpg&op_usm=.4,.8,0,0&resmode=sharp2",
-      "image": "0900631B81C9387BM.jpg"
+      "image_url": "https://images-na.ssl-images-amazon.com/images/I/61XdUvthrbL._AC_SL1500_.jpg",
+      "image": "app3.jpg"
     }
   },
   {
@@ -200,13 +241,16 @@
     "model": "products.product",
     "fields": {
       "sku": "pp5002990740",
-      "name": "Stafford 4-pk. Heavyweight Crewneck T-ShirtsBig & Tall",
-      "description": "Soft and comfortable, two of his favorite things together in this heavyweight cotton tee from Stafford.  combed cotton heavier fabric for durability preshunk for lasting fit premium seaming reduces twisting tag free cotton washable imported",
-      "price": 48.99,
+      "name": "Samsung Galaxy S9 G960U Verizon + GSM Unlocked 64GB (Midnight Black)",
+      "description": "Qualcomm Snapdragon 845 processo
+5.8 inches Curved Super AMOLED HD touch screen
+Super Speed Dual Pixel Camera
+Infinity Display: edge-to-edge immersive screen, enhancing your entertainment experience",
+      "price":274.99,
       "category": 5,
       "rating": 4.8,
-      "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP1029201317111469M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-      "image": "DP1029201317111469M.jpg"
+      "image_url": "https://images-na.ssl-images-amazon.com/images/I/71EpwFTgLOL._AC_SL1500_.jpg",
+      "image": "pho1.jpg"
     }
   },
   {
@@ -214,13 +258,13 @@
     "model": "products.product",
     "fields": {
       "sku": "pp5003050248",
-      "name": "Levi's 529 Curvy Bootcut Jeans",
-      "description": "Levis 529 curvy bootcut jeans are flattering and perfect for any timeday or night.  sits below the waist slim fit through hip and thigh bootcut leg with 18\" opening smooth bottom 8\" front rise; 15\" back rise cotton/polyester/elastane washable imported misses average: 32\" inseam ",
-      "price": 65.99,
+      "name": " Selfie Ring Light with 50 inches Extendable Tripod Stand",
+      "description": "【Dimmable Ring Light】UBeesize 10 inches Ring Light features 3 light colors (Warm, Cool White, Daylight) and 11 levels brightness in each color, 33 options in total. You can choose any option in between if there’s a perfect setting. ",
+      "price": 36.99,
       "category": 6,
       "rating": 4.4,
-      "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP0918201520303373C.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-      "image": "DP0918201520303373C.jpg"
+      "image_url": "https://images-na.ssl-images-amazon.com/images/I/61eFBPO6UwL._AC_SL1000_.jpg",
+      "image": "acc.jpg "
     }
   },
   {
@@ -228,13 +272,14 @@
     "model": "products.product",
     "fields": {
       "sku": "pp5003070787",
-      "name": "Worthington Essential Short-Sleeve Tee - Plus",
-      "description": "Our stretchy jersey knit tee's gently pleated neckline makes a simply sweet impression.  pleated u-neck short sleeves polyester/spandex washable imported ",
-      "price": 33.99,
+      "name": "(New) Phone Camera Lens, 0.6X Super Wide Angle Lens, 15X Macro Lens, 2 in 1 Clip-On Cell Phone Lens Kit for iPhone, Samsung, Other Smartphones",
+      "description": "[SUPER PREMIUM QUALITY] - Manufactured with advanced Lanthanide Optical Glass and Top-grade aluminum construction for enhanced durability.
+NO DARK CORNERS 0.6X WIDE ANGLE LENS - This phone camera lens can help largely expand the field of view and enable you capture the entire family or a whole team member into one picture. Shooting stunning photos of people, pets, travel scenery, landscapes, architecture, selfies and more. NO DARCK CORNERS",
+      "price": 15.99,
       "category": 5,
       "rating": 4.4,
-      "image_url": "http://s7d2.scene7.com/is/image/JCPenney/DP1119201520340305C.tif?wid=65&hei=65&fmt=jpg&op_usm=.4,.8,0,0&resmode=sharp2",
-      "image": "DP1119201520340305C.jpg"
+      "image_url": "https://images-na.ssl-images-amazon.com/images/I/61nUkZE1jhL._AC_SL1200_.jpg",
+      "image": "new.jpg"
     }
   },
   {
@@ -242,13 +287,17 @@
     "model": "products.product",
     "fields": {
       "sku": "pp5003090182",
-      "name": "Marvel Comics Avengers Hulk Pillow Buddy",
-      "description": "The Hulk may be tough, but he's actually a real softy. Get to know his softer side with this fun Hulk-shaped pillow.  adds a playful layer of texture and comfort to bed's decor measures 15x9x20\"H Polyester with polyester fill. Spot clean. Imported.",
-      "price": 59.99,
+      "name": "Banana Phone Bluetooth Handset for iPhone or Android Cell Phones",
+      "description": "Perfect Wireless Handset, Crystal Clear Audio, Connects to iPhone and Android Devices, Full Voice Assistant Capabilities
+Win your white elephant gift exchange with this fun Banana Phone in serious gift packaging!
+1% For The Planet Certified. Durable Quality Construction, 100% Recycled ABS
+Rechargeable via Micro USB | Cable Included
+10 Hour Talk Time | 70 Hour Idle Time | 30ft Bluetooth Range",
+      "price": 39.99,
       "category": 2,
       "rating": 4.8,
-      "image_url": "http://s7d2.scene7.com/is/image/JCPenney/DP0807201317072274M.tif?wid=65&hei=65&fmt=jpg&op_usm=.4,.8,0,0&resmode=sharp2",
-      "image": "DP0807201317072274M.jpg"
+      "image_url": "https://images-na.ssl-images-amazon.com/images/I/61T7-sgbZOL._AC_SL1500_.jpg",
+      "image": "new1.jpg "
     }
   },
   {
@@ -256,13 +305,13 @@
     "model": "products.product",
     "fields": {
       "sku": "pp5003090186",
-      "name": "Marvel Spiderman Pillow Buddy",
-      "description": "Now your child can sling webs next to his favorite wall crawler with this Spider-Man pillow buddy. shaped like everyone's favorite web head measures 15x9x20\"H Polyester with polyester fill. Spot clean. Imported.",
-      "price": 60.99,
+      "name": "MUSICOZY Sleep Headphones Bluetooth Wireless Sleeping Eye Mask",
+      "description": "【👍 Best Sleep Headphones with Superior HD Stereo Sound♪】 Our this model of bluetooth sleep headphone is the latest and unique one in the market! 👉 Features latest Bluetooth V5.0 technology and states of the art acoustic components that produce incredible sound quality with deep bass and crystal clear treble. The bluetooth sleep mask earbuds/headphones pair with any Bluetooth-enabled smartphone or tablet devices quicker & easier within 33 feet.",
+      "price": 28.99,
       "category": 2,
       "rating": 5,
-      "image_url": "http://s7d2.scene7.com/is/image/JCPenney/DP0807201317072924M.tif?wid=65&hei=65&fmt=jpg&op_usm=.4,.8,0,0&resmode=sharp2",
-      "image": "DP0807201317072924M.jpg"
+      "image_url": "https://images-na.ssl-images-amazon.com/images/I/716dNziJTXL._AC_SL1200_.jpg",
+      "image": "sp.jpg"
     }
   },
   {
@@ -270,13 +319,13 @@
     "model": "products.product",
     "fields": {
       "sku": "pp5003161326",
-      "name": "JCPenney Home Oven Mitt",
-      "description": "Keep it cool in the kitchen with this lined oven mitt.  silicone grip protects hand from heat up to 350F contrast woven houndstooth trim fits comfortably on left or right hand handy hanging tie Sold individually. Cotton with cotton lining. Measures 7x13\". Washable. Imported. ",
-      "price": 20.99,
+      "name": "XLEADER SoundAngel (2 Gen) 5W Pocket Portable Speaker, 15h Music",
+      "description": " 【Excellent Design】It Combined with Smart Touch Screen technology and Echo Dot design,Sensitive touch offers you funny control. Gently touching with your fingertip easily achieve switching the songs and volume control and taking the calls.A fun gift that's guaranteed to bring a smile.",
+      "price": 21.99,
       "category": 7,
       "rating": 4.7,
-      "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP0821201317103183M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-      "image": "DP0821201317103183M.jpg"
+      "image_url": "https://images-na.ssl-images-amazon.com/images/I/617iDs7ctwL._AC_SL1500_.jpg",
+      "image": "sp1.jpg"
     }
   },
   {
@@ -284,13 +333,13 @@
     "model": "products.product",
     "fields": {
       "sku": "pp5003230723",
-      "name": "Farberware Sonoma 2-qt. Whistling Tea Kettle",
-      "description": "The classic, trusted quality of Farberware pairs nicely with this durable stainless steel teakettle. Gelatin, hot chocolate or a cup of soupthe uses for a teakettle don't stop at tea.  whistle feature signals when water is at a boil removable lid makes kettle easy to fill 2-qt. capacity Stainless steel. Dishwasher safe. Imported. ",
+      "name": "Nintendo Wii Console Black",
+      "description": "Nintendo Wii Console Black ",
       "price": 60.99,
       "category": 7,
       "rating": 4.3,
-      "image_url": "http://s7d9.scene7.com/is/image/JCPenney/0900631B81D676AEM.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-      "image": "0900631B81D676AEM.jpg"
+      "image_url": "https://images-na.ssl-images-amazon.com/images/I/610pc4Vc28L._SL1500_.jpg",
+      "image": "g1.jpg"
     }
   },
   {
@@ -298,13 +347,13 @@
     "model": "products.product",
     "fields": {
       "sku": "pp5003270936",
-      "name": "Silver Superman Shield Cufflinks",
-      "description": "Superman shield cuff links are a work of art, and a subtle and stylish way to properly honor the man of steel.  one-piece fixed backing featuring the DC Comics logo  x \" rhodium plated metal/enamel imported",
-      "price": 76.99,
+      "name": "Jelly Comb 2.4G Slim Wireless Mouse with Nano Receiver MS001 (Black and Gold)",
+      "description": "Smooth Navigation with Less Noise Mouse Click - Slim ergonomic design and smooth frosted surface for an incredible user experience. Quieter and Easier to click, make you concentrate on your work without disturbing others beside you",
+      "price":11.99,
       "category": 4,
       "rating": 5,
-      "image_url": "http://s7d2.scene7.com/is/image/JCPenney/DP0917201317033820M.tif?wid=65&hei=65&fmt=jpg&op_usm=.4,.8,0,0&resmode=sharp2",
-      "image": "DP0917201317033820M.jpg"
+      "image_url": "https://images-na.ssl-images-amazon.com/images/I/61lB0Ugp4aL._AC_SL1500_.jpg",
+      "image": "de3.jpg "
     }
   },
   {
@@ -312,13 +361,13 @@
     "model": "products.product",
     "fields": {
       "sku": "pp5003360384",
-      "name": "Dickies Heavyweight Long-Sleeve Pocket Tee",
-      "description": "When your workday calls for a heavyweight tee, grab this long-sleeve one from Dickies and enjoy industrial-strength comfort from the brand you trust.  chest pocket tagless back neck taped neck and shoulder seams cotton washable imported",
-      "price": 29.99,
+      "name": "YEVIOR Coffee Cup Warmer for Desk with Touch Screen Switch",
+      "description": "YEVIOR Coffee Cup Warmer for Desk with Touch Screen Switch,Coffee Mug Warmer for Office Home Use,Cup Warmer Plate for Coffee, Milk, Tea, Water",
+      "price": 18.99,
       "category": 9,
       "rating": 4.8,
-      "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP0927201317061305M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-      "image": "DP0927201317061305M.jpg"
+      "image_url": "https://images-na.ssl-images-amazon.com/images/I/51uP6AFwzbL._AC_SL1000_.jpg",
+      "image": "app4.jpg"
     }
   },
   {
@@ -326,13 +375,13 @@
     "model": "products.product",
     "fields": {
       "sku": "pp5003440111",
-      "name": "Royal Velvet Down Chamber Pillow",
-      "description": "The Down Chamber pillow, with its unique pillow-in-pillow design, offers all-natural comfort. With an inner core of springy, high-loft feathers wrapped in an outer layer of silk, luxurious down, you'll receive supportive, lofty comfort. The gusset allows for additional neck support so you can sleep comfortably. inner chamber of springy, True Loft feathers provides superior all-natural comfort and support outer layer of silky, soft down adds lasting cushioning and comfort 550 fill power 300 thread-count cotton cover is hypoallergenic medium support for stomach or side sleepers hypoallergenic Cotton cover; duck feather and down fill. Washable. Manufacturer's 4-year limited warranty. Assembled in America from imported fabric. Standard/Queen pillow: 20x28\"; 32-ounce fill weight King pillow: 20x36\"; 39-ounce fill weight Be sure to care for your investment with a pillow protector. It's an added layer of protection that willhelpkeep your pillow clean and fresh. ",
-      "price": 82,
+      "name": "ECOVACS DEEBOT OZMO T5 2-in-1 Robot Vacuum & Mop with Precision Laser Mapping & Navigation",
+      "description": "OZMO 2-in-1 mopping: Simultaneously vacuum and mop. The large 240 milliliter water tank covers over 2000 square feet of mopping. Carpet detection automatically avoids carpets when mopping and doubles suction power when vacuuming. ",
+      "price": 499.99,
       "category": 2,
       "rating": 3.8,
-      "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP1023201317051585M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-      "image": "DP1023201317051585M.jpg"
+      "image_url": "https://images-na.ssl-images-amazon.com/images/I/51won1dor8L._AC_SL1144_.jpg",
+      "image": "sp3.jpg  "
     }
   },
   {
@@ -340,13 +389,13 @@
     "model": "products.product",
     "fields": {
       "sku": "pp5003540313",
-      "name": "Dickies Heavyweight Fleece Full Zip HoodieBig & Tall",
-      "description": "This soft fleece jacket is a heavyweight champ that works overtime to keep the chill away.  drawcord closure on hood kangaroo pocket rib-knit cuffs and waistband cotton/polyester washable imported",
-      "price": 106.99,
+      "name": "Switch Controller for Nintendo Switch",
+      "description": "🎮【TURBO FUNCTION and MOTION CONTROLS】 Switch controller share same turbo function and motion controls with Nintendo switch controller official. Pro controller switch built- in sensitive sensors support motions controls with 6 shots/s turbo speed, greatly enhance your switch gameplay",
+      "price": 28.99,
       "category": 9,
       "rating": 3,
-      "image_url": "http://s7d2.scene7.com/is/image/JCPenney/DP1108201317050996M.tif?wid=65&hei=65&fmt=jpg&op_usm=.4,.8,0,0&resmode=sharp2",
-      "image": "DP1108201317050996M.jpg"
+      "image_url": "https://images-na.ssl-images-amazon.com/images/I/61RfFj5zoTL._AC_SL1200_.jpg",
+      "image": "ga1.jpg  "
     }
   }
 ]
