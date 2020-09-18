@@ -1,0 +1,1 @@
+web: gunicorn tech_buddy.wsgi:application
