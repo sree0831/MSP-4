@@ -32,7 +32,5 @@ urlpatterns = [
     path('checkout/', include('checkout.urls')),
     path('profile/', include('profiles.urls')),
     url(r'^news/', get_posts, name='news'),
-  
-  
-
+    
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
