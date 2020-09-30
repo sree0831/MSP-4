@@ -27,6 +27,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY', '')
 DEBUG = 'DEVELOPMENT' in os.environ
 
 ALLOWED_HOSTS = ['tech-buddy.herokuapp.com', 'localhost']
+X_FRAME_OPTIONS = ['ALLOW-FROM http://ami.responsivedesign.is/']
 
 
 # Application definition
