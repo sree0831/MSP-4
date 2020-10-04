@@ -249,7 +249,7 @@ You will see something like this:
 ![start application](media/admin.PNG)
 
 
-11. Django-countries I used this page to install countries on my checkout payment forms (https://github.com/SmileyChris/django-countries#installation)
+11. Django-countries 
 
  #### Installation CountryField
 
@@ -273,7 +273,7 @@ class Person(models.Model):
 
 
 Heroku=
-I went to [Heroku](https://www.heroku.com/) to set up an app 'Wine House'
+I went to [Heroku](https://www.heroku.com/) to set up an app 'Tech Buddy'
 
 Resources> add database **Postgres** choose **'HobbyDev Free'**
 
