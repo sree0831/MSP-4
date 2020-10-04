@@ -399,9 +399,8 @@ This option on appears in the nav bar when the user has logged in. once clicked,
 #### Features Left To Implement
 
 - Product Review Page, where previous customers and existing and previous users of the web store can give feedback on items purchased.
-
 - A wishlist, where the user can pick products and "favorite" them, before deciding to add them to the cart or not. The user can click on the wishlist link and review the products they have favored. This saves time and gives the user a better user experience overall.
-
+- sending e-mails to users with their order summary.
 ## Testing
 
 #### Tools and Methods Used for Testing
