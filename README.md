@@ -485,7 +485,7 @@ Manual testing was embraced for this application and acceptably passed. An examp
 * Once signed into Heroku, I went to the Heroku dashboard.
 * I clicked on ‘New.’
 * I then clicked in ‘Create new app.’ 
-* This took me to a page where I named the app. The app had to be unique, and I chose the name ‘domscoffeeshop.’
+* This took me to a page where I named the app. The app had to be unique, and I chose the name ‘Tech Buddy.’
 * I was also able to choose a region – for this, I chose Europe.
 * I then clicked on ‘Create app,’ which took me to the app’s dashboard, as it was now created.
 * On the dashboard, I clicked on ‘Resources’.
@@ -512,7 +512,7 @@ Manual testing was embraced for this application and acceptably passed. An examp
 - A live demonstration is accessible by clicking [here](https://tech-buddy.herokuapp.com/ "Live Demonstration: Tech Buddy").
 
 ## Credits
-- Code Institute lessons are the backbone of this project for creating products and checkout .
+- Code Institute lessons are the backbone of this project for creating products page and checkout page .
 - All products  including their images, with prices were taken from the Amazon website.
 - Slack and lots of tutorials from web .
 - CSS and JavaScript libraries.
