@@ -43,7 +43,7 @@
     - [Setting up Heroku](#Setting-up-Heroku)
     - [Features](#Features)
     - [Features Left To Implement](#Features-Left-To-Implement)
-    - [Challenges](#Challenges)
+    
 
 
 
@@ -121,7 +121,7 @@ Three main users were created:
     - Register a new account or login to existing one.
     - See the account profile.
     - Registered User can update their profile and view order summary in their profiles.
-    - Search individual products from anywhere trough the searchbar on the navbar.
+    - Search individual products from anywhere through the searchbar on the navbar.
     - Add to cart.
     - Visualise a list of the final order and change that order (remove or edit)
     - Add contact details and payment option
@@ -141,6 +141,8 @@ Three main users were created:
 The navbar will be available to users at the top of the application on every page.
 Unregistered users will see links to Register,Login.
 Registered users will see links to LogOut, Profile in my account.
+- Users can select products depending on their categories with shop now option which leads to all products page .
+
 
 ### Database structure
 - Django normally works with SQL databases and comes prepacked with sqlite3. 
@@ -156,7 +158,7 @@ Registered users will see links to LogOut, Profile in my account.
 
 
 ## Technologies
-#### Languages, Libraries & Frameworks
+# Languages, Libraries & Frameworks
 
 * This project uses **HTML**, **CSS**, **JavaScript** and **Python** programming languages.
 
@@ -207,11 +209,6 @@ Open the gitpod tempate and install Django:
 2. Create a project on your console 
 `django-admin startproject ecommerce .` (Dot on the end means that won't be put down another level in our directories)
 
-3. Download this project by clicking the link:
-https://github.com/jamaral14/Full-Stack-Frameworks-with-Django-Milestone-Project.git
-
-Create new folder and files, and you can upload the project.
-
 4. Create your on env.py and  .gitignore
 Here (env.py) you can put all your secret Keys, and put it on .gitignore **MAKE SURE IT IS IN THE .gitignore FILE**
 
@@ -221,11 +218,11 @@ Make sure you create this secret keys, if you download the project they will not
 * Set up an account with Stripe [here](https://stripe.com/gb) & input STRIPE_PUBLISHABLE_KEY & STRIPE_SECRET_KEY
 If working locally you will need to update the settings.py and comment back in env.py.
 
-6. Go to setting.py (line 153 to 175)  and this is what you should change
+6. Go to setting.py  and this is what you should change
 
 ```
 AWS_STORAGE_BUCKET_NAME =
-AWS_S3_REGION_NAME = 'eu-west-1'
+AWS_S3_REGION_NAME = 'eu-north-1'
 AWS_ACCESS_KEY_ID = 
 AWS_SECRET_ACCESS_KEY = 
 AWS_S3_CUSTOM_DOMAIN = 
@@ -315,3 +312,212 @@ Gitpod=
 Make sure you put the your Heroku git URL here ``` ALLOWED_HOSTS = [] ```
 
 And then you can run your apllicaction on Heroku.
+
+####  Features
+
+1. Home Page
+
+<br>
+  <img src="static/img/index.PNG" width="800">
+  <br>
+
+  - It starts with products carousel followed by delivery ad ,links to collections and ends with a footer.
+<hr><hr>
+
+ 2. All Products
+<br>
+  <img src="static/img/2.PNG" width="800">
+  <br>
+
+  - can browse all products ,sort them by price ,rating ,name 
+<hr><hr>
+
+3. Product Detail
+<br>
+  <img src="static/img/product.PNG" width="800">
+  <br>
+  - Users can read product description ,update quantity of products,option to add to the cart button.
+
+<hr><hr>
+
+4. Bag
+
+<br>
+  <img src="static/img/bag.PNG" width="800">
+  <br>
+
+  - users can view their products in cart with prices ,delivery charges and grand total.
+<hr><hr>
+
+6. Check out page
+
+ <br>
+  <img src="static/img/form.PNG" width="800">
+  <br>
+
+  - Asks users for payment deatils with shipping address
+
+  - Users can see their order summary and option to use card payment .
+<hr><hr>
+
+7. Blog
+
+<br>
+  <img src="static/img/3.PNG" width="800">
+  <br>
+ 
+  - users can read about new gadget news from the blog with published date ,views .
+<hr><hr>
+
+8. Profile Page
+
+ <br>
+  <img src="static/img/profile.PNG" width="800">
+  <br>
+
+  - Only signup users can view this page witha profile image and login details. 
+  - users can also update their delivery information and view their order summary.
+<hr><hr>
+
+#### The Footer
+
+The Footer is on every page. The footer has been kept clean and simple. Links to Products, Social Media links and The company name and caption. Also included at the bottom of the logo is Copyright 2020 & name of the developer.
+
+
+#### The Register Page
+
+When a user is not logged in, the register nav item appears in the Nav bar. A user will be able to register, via the register form on the register page. If a user with an account, finds themselves on this page by mistake, they are guided to click "HERE" to direct them to the login page. Within the register form, are fields for email address, Username, Password and Password Confirmation.
+
+#### The Login Page
+
+The login page features a standard login form asking for username and password. 
+
+#### The 'My Profile' Page
+
+This option on appears in the nav bar when the user has logged in. once clicked, the user is directed to another page, where the page displays their email address and username.
+
+#### Features Left To Implement
+
+- Product Review Page, where previous customers and existing and previous users of the web store can give feedback on items purchased.
+
+- A wishlist, where the user can pick products and "favorite" them, before deciding to add them to the cart or not. The user can click on the wishlist link and review the products they have favored. This saves time and gives the user a better user experience overall.
+
+## Testing
+
+#### Tools and Methods Used for Testing
+
+- HTML
+
+  - [Freeformatter](https://www.freeformatter.com/)
+
+  - [The W3C Markup Validation Service](https://validator.w3.org/)
+
+- CSS
+
+  - [The W3C Markup Validation Service](https://jigsaw.w3.org/css-validator)
+
+- Python
+
+  - [Python Formatter](http://pep8online.com/)
+
+- Phones
+
+  - Galaxy Note 3 (simulation and actual device)
+  - Galaxy Note 9
+  - Galaxy S5
+  - Galaxy S9/S9+
+  - iPhone 5/SE
+  - iPhone 6/7/8 (simulated and real device)
+  - iPhone 6/7/8 Plus
+  - iPhone X
+  - LG Optimus L70
+  - Microsoft Lumia 550
+  - Microsoft Lumia 950
+  - Nexus 5X
+  - Nexus 6P
+  - Nokia 8110 4G
+  - Pixel 2
+  - Pixel 2 XL
+
+- Tablets
+  - iPad (simulation and actual device)
+  - iPad Mini
+  - iPad Pro (10.5-inch)
+  - iPad Pro (12.9-inch) (simulated and real device)
+  - Kindle Fire HDX
+  - Nexus 10
+  - Nexus 7
+
+- Website responsiveness was also tested by resizing .
+
+
+
+#### Tested Sections 1 HTML & CSS
+
+
+- Checked button sizes so, they were responsive and large enough to be clicked.
+
+- Ensured individual section headers resized and appeared well when viewed on various device screens and added opacity to the navigation bar to allow for more visibility of section header area on smaller devices.
+
+- Spell checked all text content.
+
+- HTML and CSS validation via [w3.org](https://www.w3.org/ "W3C Official Site").
+
+- Checked margins and padding of the container (sections) to ensure the content within it did not look disproportionate on various screen sizes, individually smaller devices.
+
+#### Tested Sections 2 Python
+
+Manual testing was embraced for this application and acceptably passed. An example of the tests directed are as per the following:
+
+- Tested route catches and hyperlinks all through the page.
+- Tested the rationale of the application by looking at expected conduct against the database record information.
+- Tested the responsiveness of the application on various programs and after that utilising multiple gadgets.
+
+## Deployment
+
+#### How the project got deployed to Heroku
+### Introduction
+* This website was deployed using Heroku.
+* The code for the site was written using Gitpod.
+
+### Creating the app on Heroku
+* To deploy it on Heroku, I first signed into Heroku, using the username and password, which I’d chosen when I first registered with Heroku.
+* Once signed into Heroku, I went to the Heroku dashboard.
+* I clicked on ‘New.’
+* I then clicked in ‘Create new app.’ 
+* This took me to a page where I named the app. The app had to be unique, and I chose the name ‘domscoffeeshop.’
+* I was also able to choose a region – for this, I chose Europe.
+* I then clicked on ‘Create app,’ which took me to the app’s dashboard, as it was now created.
+* On the dashboard, I clicked on ‘Resources’.
+* In the ‘Add-ons’ section, I searched for Heroku Postgres and selected it. 
+* I then chose the Hobby Dev – Free option.
+* This added a Database URL to the app’s config vars.
+
+### Creating a new database
+* On my Gitpod workspace, I installed dj_database_url, psycopg2, and gunicorn.
+* In settings.py I updated the databases section with the new Heroku Postgres database information, and added the Database URL to env.py.
+* I then did makemigrations and migrate, to add information to the new database.
+* I then created a new superuser.
+
+### Deploying the website
+* On Heroku, I updated the config vars section with information that was saved in my env.py file.
+* Before I pushed the code from Gitpod to the Heroku server, I created two files – requirements.txt (which contained a list of the dependencies my site was using) and a Procfile (which contained the instruction ‘web: gunicorn coffeeshop.wsgi:application’).
+* On Heroku, I clicked on the Deploy tab, and then clicked GitHub.
+* I searched for the name of my repository and then connected to it.
+* I also enabled ‘automatic deploys’ so that the website would automatically update.
+* Once that was done, I was then able to push the code to Heroku using the commands ‘git add,’ ‘git commit,’ and then ‘git push.’
+
+#### How to access the live application
+
+- A live demonstration is accessible by clicking [here](https://tech-buddy.herokuapp.com/ "Live Demonstration: Tech Buddy").
+
+## Credits
+- Code Institute lessons are the backbone of this project for creating products and checkout .
+- All products  including their images, with prices were taken from the Amazon website.
+- Slack and lots of tutorials from web .
+- CSS and JavaScript libraries.
+- For my Mentor who guided me in building this website.
+- I also had help from [W3Schools](https://www.w3schools.com/) and [Stack Overflow](https://stackoverflow.com/) when trying to solve problems with my code.
+- I also used Code Institute [Slack](https://slack.com/) to look for help when I needed it.
+#### Inspiration
+- From my 8 year old Daughter who always encourages me with her ideas and suggestions in building this project !
