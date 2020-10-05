@@ -9,6 +9,7 @@
     </div>
 {% endblock %}
 
+<!-- Page heading here -->
 {% block content %}
 <section class="products-showcase">
 	 <div class="container">
@@ -30,7 +31,7 @@
         </div>
 
     
-    
+    <!--search options for products-->
         <div class="row">
             <div class="product-container col-10 offset-1">
                 <div class="row mt-1 mb-2">
@@ -58,6 +59,7 @@
                         </p>
                     </div>
                 </div>
+                <!-- Displays all products -->
                 <div class= "row row-flex">
                     {% for product in products %}
                         <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3">
@@ -96,7 +98,7 @@
                             </div>
                         </div>
                           
-                
+                <!--number of products depends on screen-->
                         {% if forloop.counter|divisibleby:1 %}
                             <div class="col-12 d-sm-none mb-5">
                                 <hr>
