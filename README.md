@@ -110,7 +110,7 @@ Three main users were created:
 
 
 - A new user should be able to:
-    - Visualize a homepage with all products and blog entries.
+    - Visualize a homepage with all products,products suggestions and blog entries.
     - Visualize the main navigation (sticky) with links to the main sections.
     - Visualize a search bar for finding products.
     - User always have the option to go to any page thanks to a sticky navbar with all pages accesible from there.
@@ -369,7 +369,19 @@ And then you can run your apllicaction on Heroku.
   - users can read about new gadget news from the blog with published date ,views .
 <hr><hr>
 
-8. Profile Page
+8. Product-suggestions
+
+<br>
+  <img src="static/img/product.PNG" width="800">
+  <br>
+  <br>
+  <img src="static/img/p1.PNG" width="800">
+  <br>
+ 
+  - users can add a product suggestion , view and filter all suggestions.
+<hr><hr>
+
+9. Profile Page
 
  <br>
   <img src="static/img/profile.PNG" width="800">
