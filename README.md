@@ -334,7 +334,7 @@ And then you can run your apllicaction on Heroku.
 
 3. Product Detail
 <br>
-  <img src="static/img/product.PNG" width="800">
+  <img src="static/img/detail.PNG" width="800">
   <br>
   - Users can read product description ,update quantity of products,option to add to the cart button.
 
