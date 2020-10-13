@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<!-- Header  -->
+<div class="jumbotron"> 
+        <div class="container-fluid">
+        </div> 
+</div> 
+<!--form for new products-->
+      <div class="container mt-5 mb-5">
+        <h2 class="logo-font text-center"> Add a new product Suggestion</h2>
+         <hr style="height:2px;border-width:0;color:gray;background-color:black"> 
+    <form method="POST" enctype="multipart/form-data">
+     {% csrf_token %}
+    <div id="div_id_title" class="form-group  ">
+        <label for="id_title" class="control-label required-field ">
+            Title
+        </label>
+        <div class="">
+            <input type="text" name="title" maxlength="200" class=" form-control" required id="id_title" />   
+        </div>    
+    </div>
+<div id="div_id_content" class="form-group  ">
+    <label for="id_content" class="control-label required-field ">
+          Content
+    </label>
+    <div class="">
+        <textarea name="content" cols="40" rows="10" class=" form-control" required id="id_content"></textarea>
+    </div>
+</div>
+        <button type="submit" class="btn btn-dark rounded-0">Add product suggestion</button>
+    </form>
+</div>
+
+{% endblock %}

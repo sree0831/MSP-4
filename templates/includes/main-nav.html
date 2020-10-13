@@ -55,6 +55,15 @@
                         <a class="logo-font font-weight-bold nav-link text-black" href="{% url 'news' %}">Blog <span class="sr-only">(current)</span></a>
                     </li>
         </div>
+        <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle logo-font font-weight-bold text-black" href="{% url 'get_suggestions' %}" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              Product-Suggestions
+                            </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="{% url 'get_suggestions' %}">See all suggestions</a>
+                            <a class="dropdown-item" href="{% url 'new_suggestion' %}">Add new suggestion</a>
+                        </div>
+        </li>
     </ul>
     <div class="my-1">
                     <h4>

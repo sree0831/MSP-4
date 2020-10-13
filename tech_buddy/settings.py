@@ -29,6 +29,8 @@ DEBUG = 'DEVELOPMENT' in os.environ
 ALLOWED_HOSTS = ['tech-buddy.herokuapp.com', 'localhost']
 X_FRAME_OPTIONS = 'ALLOW-FROM http://techsini.com/multi-mockup/'
 
+# SECURITY WARNING: don't run with debug turned on in production!
+DEBUG = True
 
 # Application definition
 
@@ -49,6 +51,7 @@ INSTALLED_APPS = [
     'checkout',
     'profiles',
     'news',
+    'suggestions',
 
     # Other
     'crispy_forms',

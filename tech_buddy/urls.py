@@ -18,6 +18,8 @@ from django.conf import settings
 from django.conf.urls.static import static
 from django.conf.urls import url, include
 from news.views import get_posts
+from suggestions import urls as urls_suggestions
+from suggestions.views import get_suggestions
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -28,5 +30,8 @@ urlpatterns = [
     path('checkout/', include('checkout.urls')),
     path('profile/', include('profiles.urls')),
     url(r'^news/', get_posts, name='news'),
+    url(r'^suggestions/', include('suggestions.urls')),
+    url(r'^suggestions/', include(urls_suggestions)),
+    url(r"^suggestions", get_suggestions, name="get_suggestions"),
     
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
